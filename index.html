@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-Hant">
 
 <head>
   <meta charset="UTF-8">
@@ -13,7 +13,7 @@
   <div class="container">
     <div class="header">
       <div class="logo">
-        高雄市政府經濟發展局
+        <h1>高雄市政府經濟發展局</h1>
       </div>
       <p>僅供六角學院密室逃脫使用</p>
       <ul class="nav-list">
@@ -23,7 +23,7 @@
       </ul>
     </div>
     <div class="banner mb-3">
-      <img class="image"
+      <img class="image" alt="高雄市政府經濟發展局俯瞰圖"
         src="https://orgws.kcg.gov.tw/001/KcgOrgUploadFiles/334/relpic/70209/162867/4c503d6b-a523-48b2-93f7-a64fda9c1ec1.jpg">
     </div>
     <div class="main">
@@ -113,16 +113,20 @@
           <p class="title mb-1">聯絡我們</p>
           <form>
             <div class="mb-1">  
-              <input type="text" placeholder="請輸入姓名">
+              <label for="name" class="label">姓名</label>
+              <input id="name" type="text" placeholder="請輸入姓名">
+            </div>  
+            <div class="mb-1">
+              <label for="contact" class="label">聯絡方式</label>
+              <input id="contact" type="text" placeholder="請輸入聯絡方式">
             </div>
             <div class="mb-1">
-              <input type="text" placeholder="請輸入聯絡方式">
+              <label for="title" class="label">標題</label>
+              <input id="title" type="text" placeholder="請輸入標題">
             </div>
             <div class="mb-1">
-              <input type="text" placeholder="請輸入標題">
-            </div>
-            <div class="mb-1">
-              <textarea cols="30" rows="3" placeholder="請輸入詢問內容"></textarea>
+              <label for="content" class="label">詢問內容</label>
+              <textarea id="content" cols="30" rows="3" placeholder="請輸入詢問內容"></textarea>
             </div>
           </form>
         </div>
@@ -131,30 +135,35 @@
       <div class="right-sidebar">
         <p class="title mb-1">經發局官方粉絲頁</p>
         <iframe class="mb-3"
+        title="fan-page"
           src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fedbkh%2Fposts%2F818165426248918&show_text=true&width=500"
           width="100%" height="382" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
           allowfullscreen="true"
           allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         <p class="title mb-1">高雄展覽會議通</p>
         <iframe class="mb-3"
+        title="council"
           src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fkhmice%2Fposts%2F2942710972612868&show_text=true&width=500"
           width="100%" height="382" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
           allowfullscreen="true"
           allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         <p class="title mb-1">幸福高雄商圈</p>
         <iframe class="mb-3"
+        title="district"
           src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fkaohsiung.marketplace%2Fposts%2F5951430068232525&show_text=true&width=500"
           width="100%" height="382" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
           allowfullscreen="true"
           allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         <p class="title mb-1">高雄 省電A咖</p>
         <iframe class="mb-3"
+        title="save-power"
           src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D1604686033214941%26id%3D111314459218780&show_text=true&width=500"
           width="100%" height="382" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
           allowfullscreen="true"
           allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         <p class="title mb-1">Dakuo 高雄市數位內容創意中心</p>
         <iframe class="mb-3"
+        title="creative-center"
           src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FDakuo.kh%2Fposts%2F4673226146130820&show_text=true&width=500"
           width="100%" height="382" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
           allowfullscreen="true"
