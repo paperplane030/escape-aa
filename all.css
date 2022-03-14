@@ -143,9 +143,9 @@ img {
 body{
   background-image: url("https://khhrdi.kcg.gov.tw/images/kh_bg8.gif");
 }
---root{
+/* --root{
   font-size: 16px;
-}
+} */
 .container {
   font-size: 0.875rem;
   margin: 0 auto;
